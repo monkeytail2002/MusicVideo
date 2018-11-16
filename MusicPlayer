@@ -1,0 +1,19 @@
+/**
+ * Angus MacDonald 15009351
+ * Tutor: Karen MacKay
+ * Music Player Animation
+ * Version 1 09/11/18
+ */
+
+package musicplayer;
+
+public class MusicPlayer {
+	
+	public static void main(String[] args) {
+		
+		MusicSequencer mini = new MusicSequencer();
+		mini.go();  //plays the program
+	}
+	
+	
+}
